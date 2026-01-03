@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-bg {
+    background-color: rgb(194, 255, 194);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.main {
+    background-color: rgb(234, 181, 255);
+    height: 400px;
+    width: 500px;
+    border: 5px solid rgb(114, 111, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.main p {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(165, 0, 0);
+    margin-bottom: 20px;
+}
+
+
+#longurl, #shorturl {
+    height: 45px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+#shorturl {
+    width: 250px; 
+    background-color: white;
+}
+
+#shorturl:hover {
+    background-color: skyblue;
+}
+
+
+#shorter {
+    height: 45px;
+    padding: 0 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#shorter:hover {
+    background-color: rgb(100, 0, 100);
+    transform: scale(1.05);
+}
+
+#copy {
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#copy:hover {
+    background-color: skyblue;
+}
+
+.input-group, .result-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
