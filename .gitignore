@@ -20,8 +20,6 @@ wheels/
 .installed.cfg
 *.egg
 
-tex.py
-
 .env
 .venv
 venv/
