@@ -92,6 +92,25 @@
     background-color: skyblue;
 }
 
+#clear {
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#clear:hover {
+    background-color: skyblue;
+}
+
+
 .input-group, .result-group {
     display: flex;
     align-items: center;
